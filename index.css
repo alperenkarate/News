@@ -4,7 +4,17 @@
   list-style: none;
 }
 
+body {
+  background: white;
+}
+
+nav {
+  -webkit-box-shadow: 0px -2px 30px 0px #c4c2c4;
+          box-shadow: 0px -2px 30px 0px #c4c2c4;
+}
+
 .navTop {
+  background-color: white;
   border-bottom: 1px solid lightgray;
   font-size: 13px;
   width: 100%;
@@ -105,39 +115,7 @@
 }
 
 .navMiddle {
-  height: 90px;
-}
-
-.navMainWrapper {
-  border: 1px solid lightcoral;
-  height: 50px;
-}
-
-.navMainWrapper .navMain {
-  background-color: black;
-  height: 50px;
-}
-
-@media only screen and (max-width: 992px) {
-  .disappearForTablet {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  .disappearForMobil {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 321px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
-.navMiddle {
-  margin-top: 25px;
+  margin: 20px 0;
   vertical-align: middle;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,15 +135,42 @@
           align-items: center;
 }
 
-.navMiddle .container .logo {
-  float: left;
+.navMiddle .container .logo .mobilToggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
 }
 
-.navMiddle .container .logo img {
+.navMiddle .container .logo .mobilToggle .left {
+  margin-left: 5px;
+}
+
+.navMiddle .container .logo .mobilToggle .right {
+  margin-right: 5px;
+}
+
+.navMiddle .container .logo .mobilToggle img {
   -o-object-fit: contain;
      object-fit: contain;
-  max-width: 100%;
-  height: auto;
+  max-height: 49px !important;
+  width: auto;
+}
+
+.navMiddle .container .logo .mobilToggle .left span,
+.navMiddle .container .logo .mobilToggle i {
+  margin-right: 5px;
+}
+
+.navMiddle .container .logo .mobilToggle .right i {
+  margin-right: 5px;
 }
 
 .navMiddle .container .adBanner {
@@ -178,5 +183,139 @@
      object-fit: contain;
   max-width: 100%;
   height: auto;
+}
+
+.navMainWrapper {
+  height: 60px;
+}
+
+.navMainWrapper .navMain {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1f2024;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navMainWrapper .navMain .navMain-Left {
+  color: white;
+}
+
+.navMainWrapper .navMain .navMain-Left ul {
+  padding-left: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.navMainWrapper .navMain .navMain-Left ul li {
+  margin-right: 15px;
+}
+
+.navMainWrapper .navMain .navMain-Right {
+  color: white;
+}
+
+.navMainWrapper .navMain .navMain-Right ul {
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navMainWrapper .navMain .navMain-Right ul li {
+  margin-right: 15px;
+}
+
+.navMainWrapper .navMain .navMain-Right ul .nav-search {
+  background: none;
+  border: none;
+  border-left: 1px solid gray;
+}
+
+.navMainWrapper .navMain .navMain-Right ul .nav-search-icon {
+  border: none;
+  background: transparent !important;
+  color: gray;
+}
+
+@media only screen and (max-width: 991.5px) {
+  .disappearForTablet {
+    display: none;
+  }
+  .navMiddle .container {
+    display: inline-block;
+  }
+  .navMiddle .container .adBanner {
+    float: unset;
+    margin-left: unset;
+    text-align: center;
+  }
+  .container {
+    max-width: unset;
+    padding: 0;
+  }
+  nav {
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .navMiddle {
+    margin: 0;
+  }
+  .navMiddle .logo {
+    -webkit-box-shadow: 0 6px 6px -5px lightgrey;
+            box-shadow: 0 6px 6px -5px lightgrey;
+  }
+  .adBanner {
+    padding: 13px 0;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .disappearForMobil {
+    display: none;
+  }
+  .container {
+    max-width: unset;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .container {
+    max-width: unset;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: unset;
+  }
+  .navMiddle .container .logo .mobilToggle {
+    font-size: 14px;
+  }
+  .navMiddle .container .logo .mobilToggle img {
+    max-height: 32px !important;
+  }
+}
+
+@media only screen and (min-width: 991.5px) {
+  .showOnTablet {
+    display: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */

@@ -56,19 +56,60 @@
             <div class="navLogo navMiddle">
                 <!--display flex yapacaz   media queryde justfy content yapıp log ortaya yapıcaz toggle navbar icon sola gelecek-->
                 <div class="container">
-                    <div class="toggleNav"></div>
+
                     <div class="logo">
-                        <img src="assets/logo.jpg" width="300" height="49" alt="habernokta">
+                        <div class="mobilToggle">
+                            <div class="left showOnTablet">
+                                <span> &#9776; </span>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <img src="assets/logo.jpg" width="300" height="49" alt="habernokta">
+
+                            <div class="right showOnTablet">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-moon"></i>
+                            </div>
+                        </div>
                     </div>
                     <div class="adBanner">
                         <img src="assets/ads1.jpg" alt="reklam" width="auto">
                     </div>
                 </div>
             </div>
-            <div class="navMainWrapper">
+            <div class="navMainWrapper disappearForTablet">
                 <div class="container">
                     <div class="navMain">
+                        <div class="navMain-Left">
+                            <ul>
+                                <li>HOME</li>
+                                <li>WORLD</li>
+                                <li>SPORTS</li>
+                                <li>TECH</li>
+                                <li>COMMUNITY</li>
+                                <li>SHOP</li>
+                                <li>FEATURES</li>
+                                <li>&#x22EF;</li>
 
+                            </ul>
+                        </div>
+                        <div class="navMain-Right">
+                            <ul>
+                                <li><i class="far fa-moon"></i></li>
+                                <li>Ankara 28&#x2103;</li>
+                                <li><i class="fas fa-shopping-bag"></i></li>
+                                <li><i class="fas fa-random"></i></li>
+                                <li>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control nav-search" placeholder="Search for">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-secondary nav-search-icon" type="button">
+                                                <i class="fa fa-search nav-search-icon "></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
