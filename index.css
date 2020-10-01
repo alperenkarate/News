@@ -1,3 +1,54 @@
+.newGallery {
+  padding: 15px 12px 0px 12px;
+}
+
+.newGallery .leftContent {
+  background: url(/assets/image1.jpg);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 303px;
+}
+
+.newGallery .rightTop {
+  background: url(/assets/image3.jpg);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+  padding-bottom: 5px;
+}
+
+.newGallery .right3 {
+  background: url(/assets/image2.jpg);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: cover;
+  height: 150px;
+}
+
+.newGallery .right4 {
+  background: url(/assets/image4.jpg);
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.my-col {
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -166,11 +217,11 @@ nav {
 
 .navMiddle .container .logo .mobilToggle .left span,
 .navMiddle .container .logo .mobilToggle i {
-  margin-right: 5px;
+  margin-right: 9px;
 }
 
 .navMiddle .container .logo .mobilToggle .right i {
-  margin-right: 5px;
+  margin-right: 9px;
 }
 
 .navMiddle .container .adBanner {

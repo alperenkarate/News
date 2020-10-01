@@ -1,4 +1,5 @@
 @import "variables";
+@import "content";
 
 * {
   margin: 0;
@@ -113,10 +114,10 @@ nav {
         }
         .left span,
         i {
-          margin-right: 5px;
+          margin-right: 9px;
         }
         .right i {
-          margin-right: 5px;
+          margin-right: 9px;
         }
       }
     }
