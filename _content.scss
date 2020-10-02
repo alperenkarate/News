@@ -1,5 +1,6 @@
 .newGallery {
   padding: 15px 12px 0px 12px;
+
   .leftContent {
     background: url(/assets/image1.jpg);
     height: fit-content;
@@ -149,9 +150,6 @@
     }
   }
 }
-.main-right {
-  border: 1px solid green;
-}
 
 // category news section
 .categoriesContent {
@@ -174,18 +172,18 @@
       width: 0;
       height: 0;
       border-top: 2px solid transparent;
-      border-left: 4px solid $myOrange;
+      border-left: 4px solid rgb(2, 214, 2);
       border-bottom: 4px solid transparent;
       position: absolute;
-      top: 57px;
+      top: 56.3px;
     }
     &:after {
       content: "";
       width: 60px;
       height: 2px;
-      background: $myOrange;
+      background: rgb(2, 214, 2);
       position: absolute;
-      top: 57px;
+      top: 56.3px;
     }
 
     .right {
@@ -200,7 +198,7 @@
           margin: 0 5px;
         }
         li.active {
-          color: $myOrange;
+          color: rgb(2, 214, 2);
         }
         .arrow {
           border: 0.5px solid lightgray;
@@ -213,7 +211,7 @@
     }
     .left {
       span {
-        color: $myOrange;
+        color: rgb(2, 214, 2);
         font-weight: 600;
         font-size: 18px;
       }
@@ -297,6 +295,416 @@
   }
 }
 
+//longcols vertical news
+
+.longcols-container {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  .categoriesHeader {
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 2px solid transparent;
+      border-left: 4px solid $myBlue;
+      border-bottom: 4px solid transparent;
+      position: absolute;
+      top: 37px;
+    }
+    &:after {
+      content: "";
+      width: 60px;
+      height: 2px;
+      background: $myBlue;
+      position: absolute;
+      top: 37px;
+    }
+
+    .right {
+      align-items: center;
+      vertical-align: middle;
+      ul {
+        margin: 0;
+        align-items: center;
+        display: flex;
+        font-size: 12px;
+        li {
+          margin: 0 5px;
+        }
+        li.active {
+          color: $myBlue;
+        }
+        .arrow {
+          border: 0.5px solid lightgray;
+          padding: 1px 5px;
+          margin: 2px;
+          color: lightgray;
+          font-size: 10px;
+        }
+      }
+    }
+    .left {
+      span {
+        color: $myBlue;
+
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+  }
+  .longcols-header-right {
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 2px solid transparent;
+      border-left: 4px solid $myYellow;
+      border-bottom: 4px solid transparent;
+      position: absolute;
+      top: 37px;
+    }
+    &:after {
+      content: "";
+      width: 60px;
+      height: 2px;
+      background: $myYellow;
+      position: absolute;
+      top: 37px;
+    }
+
+    .right {
+      align-items: center;
+      vertical-align: middle;
+      ul {
+        margin: 0;
+        align-items: center;
+        display: flex;
+        font-size: 12px;
+        li {
+          margin: 0 5px;
+        }
+        li.active {
+          color: $myYellow;
+        }
+        .arrow {
+          border: 0.5px solid lightgray;
+          padding: 1px 5px;
+          margin: 2px;
+          color: lightgray;
+          font-size: 10px;
+        }
+      }
+    }
+    .left {
+      span {
+        color: $myYellow;
+
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .postPhoto {
+    padding-top: 30px;
+    position: relative;
+    img {
+      object-fit: contain;
+      width: 100%;
+      height: auto;
+    }
+    span {
+      color: white;
+      background: rgb(177, 3, 177);
+      padding: 3px 6px;
+      font-size: 13px;
+      border-radius: 3px;
+      position: absolute;
+      bottom: 33px;
+      right: 10px;
+    }
+    .right {
+      background: $myYellow;
+    }
+    i {
+      color: white;
+      background: red;
+      padding: 10px 15px;
+      font-size: 20px;
+      margin: 0;
+      border-radius: 100%;
+      position: absolute;
+      left: 10px;
+      top: 15px;
+    }
+  }
+  .postHeader {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    span {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+  .postDate {
+    padding-top: 8px;
+    display: flex;
+    font-size: 11px;
+    color: gray;
+    justify-content: space-between;
+    .info-left {
+      display: flex;
+      .info {
+        margin-right: 5px;
+      }
+    }
+    .info-right {
+      display: flex;
+      .info {
+        margin-right: 5px;
+      }
+      .info-red {
+        color: red;
+      }
+    }
+  }
+  .postDetail {
+    font-size: 13px;
+    color: gray;
+    font-weight: 200;
+  }
+  .btn {
+    padding: 10px 0;
+    button {
+      border: none;
+      background-color: $myBlue;
+      color: white;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-weight: 400;
+      border-radius: 2px;
+    }
+  }
+  .btn-right {
+    button {
+      background-color: $myYellow;
+    }
+  }
+  .bottomPost {
+    display: flex;
+    .postPhoto {
+      padding-right: 10px;
+      img {
+        width: 120px;
+        height: auto;
+      }
+    }
+    .postDetail {
+      .postDate {
+        padding-top: 15px;
+        display: flex;
+      }
+      .postDetail {
+        padding-top: 9px;
+        font-weight: 500;
+        color: black;
+      }
+    }
+  }
+}
+
+//right section  buttons etc
+
+.main-right {
+  padding-left: 40px;
+  padding-right: 20px;
+  .header {
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    &:before {
+      content: "";
+      width: 0;
+      height: 0;
+      border-top: 2px solid transparent;
+      border-left: 4px solid black;
+      border-bottom: 4px solid transparent;
+      position: absolute;
+      top: 37px;
+    }
+    &:after {
+      content: "";
+      width: 60px;
+      height: 2px;
+      background: black;
+      position: absolute;
+      top: 37px;
+    }
+
+    .right {
+      align-items: center;
+      vertical-align: middle;
+      color: rgb(201, 201, 201);
+    }
+    .left {
+      span {
+        color: black;
+        font-weight: 500;
+        font-size: 17px;
+      }
+    }
+  }
+  .followers {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 15px 0;
+    margin: 0 auto;
+    justify-content: center;
+    i {
+      color: red;
+      padding-right: 5px;
+    }
+    span {
+      color: rgb(95, 95, 95);
+      letter-spacing: 0.3px;
+    }
+  }
+  .media-cards {
+    .col {
+      padding-left: 3px;
+      padding-right: 3px;
+      .social-card {
+        margin-top: 10px;
+        padding: 9px 15px;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        display: flex;
+        font-size: 24px;
+        .icon {
+          margin-right: 0;
+          padding-right: 0;
+        }
+        .card-info {
+          text-align: left;
+          font-size: 13px;
+          display: grid;
+          justify-content: left;
+        }
+      }
+    }
+  }
+
+  .weather {
+    padding: 40px 0px;
+    .weatherCard {
+      color: white;
+      background: linear-gradient(135deg, #5424fb, #9836e6);
+      width: 100%;
+      height: auto;
+      padding: 15px 30px;
+      .weatherHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .weatherIcon {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        justify-content: center;
+        text-align: center;
+        font-size: 42px;
+      }
+      .weatherCity {
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        .name {
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          font-size: 34px;
+        }
+        .temp {
+          font-weight: 600;
+          padding-top: 20px;
+          font-size: 4rem;
+          .tempIcon {
+            font-size: 16px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .weatherDetails {
+        padding-top: 15px;
+        text-align: left;
+        justify-content: center;
+        display: grid;
+        i {
+          font-size: 14px;
+          font-weight: 100;
+          padding-bottom: 9px;
+        }
+      }
+      .weatherOtherDays {
+        display: flex;
+        padding-top: 25px;
+        div {
+          display: grid;
+          justify-content: center;
+          text-align: center;
+          margin: 0 auto;
+          i {
+            font-size: 20px;
+          }
+          span {
+            padding-top: 5px;
+            letter-spacing: 0.5px;
+            font-size: 14px;
+          }
+          .fa-sun {
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+
+  .comments {
+    .commentscontainer {
+      .tab-content {
+        .content {
+          .commentCard {
+            display: flex;
+            padding-top: 20px;
+            .details {
+              padding-left: 10px;
+              font-size: 14px;
+              display: grid;
+              span {
+                height: 3px;
+                color: gray;
+              }
+              .bold {
+                color: black;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 //queries media
 
 @media only screen and (max-width: 1200px) {
@@ -319,6 +727,16 @@
     .right4 {
       height: 200px;
     }
+
+    .my-col {
+      padding-bottom: 5px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .main-right {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media only screen and (max-width: 769px) {

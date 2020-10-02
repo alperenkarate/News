@@ -187,10 +187,6 @@
   font-weight: 500;
 }
 
-.main-right {
-  border: 1px solid green;
-}
-
 .categoriesContent {
   margin-top: 35px;
   background-color: #222327;
@@ -221,19 +217,19 @@
   width: 0;
   height: 0;
   border-top: 2px solid transparent;
-  border-left: 4px solid #f5776e;
+  border-left: 4px solid #02d602;
   border-bottom: 4px solid transparent;
   position: absolute;
-  top: 57px;
+  top: 56.3px;
 }
 
 .categoriesContent .categoriesHeader:after {
   content: "";
   width: 60px;
   height: 2px;
-  background: #f5776e;
+  background: #02d602;
   position: absolute;
-  top: 57px;
+  top: 56.3px;
 }
 
 .categoriesContent .categoriesHeader .right {
@@ -259,7 +255,7 @@
 }
 
 .categoriesContent .categoriesHeader .right ul li.active {
-  color: #f5776e;
+  color: #02d602;
 }
 
 .categoriesContent .categoriesHeader .right ul .arrow {
@@ -271,7 +267,7 @@
 }
 
 .categoriesContent .categoriesHeader .left span {
-  color: #f5776e;
+  color: #02d602;
   font-weight: 600;
   font-size: 18px;
 }
@@ -372,6 +368,524 @@
   margin-top: 5px;
 }
 
+.longcols-container {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.longcols-container .categoriesHeader {
+  border-bottom: 2px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.longcols-container .categoriesHeader:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 2px solid transparent;
+  border-left: 4px solid #03b0d8;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  top: 37px;
+}
+
+.longcols-container .categoriesHeader:after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #03b0d8;
+  position: absolute;
+  top: 37px;
+}
+
+.longcols-container .categoriesHeader .right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.longcols-container .categoriesHeader .right ul {
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+.longcols-container .categoriesHeader .right ul li {
+  margin: 0 5px;
+}
+
+.longcols-container .categoriesHeader .right ul li.active {
+  color: #03b0d8;
+}
+
+.longcols-container .categoriesHeader .right ul .arrow {
+  border: 0.5px solid lightgray;
+  padding: 1px 5px;
+  margin: 2px;
+  color: lightgray;
+  font-size: 10px;
+}
+
+.longcols-container .categoriesHeader .left span {
+  color: #03b0d8;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.longcols-container .longcols-header-right:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 2px solid transparent;
+  border-left: 4px solid #fbc447;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  top: 37px;
+}
+
+.longcols-container .longcols-header-right:after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: #fbc447;
+  position: absolute;
+  top: 37px;
+}
+
+.longcols-container .longcols-header-right .right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+}
+
+.longcols-container .longcols-header-right .right ul {
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+}
+
+.longcols-container .longcols-header-right .right ul li {
+  margin: 0 5px;
+}
+
+.longcols-container .longcols-header-right .right ul li.active {
+  color: #fbc447;
+}
+
+.longcols-container .longcols-header-right .right ul .arrow {
+  border: 0.5px solid lightgray;
+  padding: 1px 5px;
+  margin: 2px;
+  color: lightgray;
+  font-size: 10px;
+}
+
+.longcols-container .longcols-header-right .left span {
+  color: #fbc447;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.longcols-container .postPhoto {
+  padding-top: 30px;
+  position: relative;
+}
+
+.longcols-container .postPhoto img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.longcols-container .postPhoto span {
+  color: white;
+  background: #b103b1;
+  padding: 3px 6px;
+  font-size: 13px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 33px;
+  right: 10px;
+}
+
+.longcols-container .postPhoto .right {
+  background: #fbc447;
+}
+
+.longcols-container .postPhoto i {
+  color: white;
+  background: red;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 0;
+  border-radius: 100%;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.longcols-container .postHeader {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.longcols-container .postHeader span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.longcols-container .postDate {
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 11px;
+  color: gray;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.longcols-container .postDate .info-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.longcols-container .postDate .info-left .info {
+  margin-right: 5px;
+}
+
+.longcols-container .postDate .info-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.longcols-container .postDate .info-right .info {
+  margin-right: 5px;
+}
+
+.longcols-container .postDate .info-right .info-red {
+  color: red;
+}
+
+.longcols-container .postDetail {
+  font-size: 13px;
+  color: gray;
+  font-weight: 200;
+}
+
+.longcols-container .btn {
+  padding: 10px 0;
+}
+
+.longcols-container .btn button {
+  border: none;
+  background-color: #03b0d8;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.longcols-container .btn-right button {
+  background-color: #fbc447;
+}
+
+.longcols-container .bottomPost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.longcols-container .bottomPost .postPhoto {
+  padding-right: 10px;
+}
+
+.longcols-container .bottomPost .postPhoto img {
+  width: 120px;
+  height: auto;
+}
+
+.longcols-container .bottomPost .postDetail .postDate {
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.longcols-container .bottomPost .postDetail .postDetail {
+  padding-top: 9px;
+  font-weight: 500;
+  color: black;
+}
+
+.main-right {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+.main-right .header {
+  border-bottom: 2px solid lightgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+
+.main-right .header:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 2px solid transparent;
+  border-left: 4px solid black;
+  border-bottom: 4px solid transparent;
+  position: absolute;
+  top: 37px;
+}
+
+.main-right .header:after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 37px;
+}
+
+.main-right .header .right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  color: #c9c9c9;
+}
+
+.main-right .header .left span {
+  color: black;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.main-right .followers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  padding: 15px 0;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-right .followers i {
+  color: red;
+  padding-right: 5px;
+}
+
+.main-right .followers span {
+  color: #5f5f5f;
+  letter-spacing: 0.3px;
+}
+
+.main-right .media-cards .col {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.main-right .media-cards .col .social-card {
+  margin-top: 10px;
+  padding: 9px 15px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+}
+
+.main-right .media-cards .col .social-card .icon {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.main-right .media-cards .col .social-card .card-info {
+  text-align: left;
+  font-size: 13px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.main-right .weather {
+  padding: 40px 0px;
+}
+
+.main-right .weather .weatherCard {
+  color: white;
+  background: linear-gradient(135deg, #5424fb, #9836e6);
+  width: 100%;
+  height: auto;
+  padding: 15px 30px;
+}
+
+.main-right .weather .weatherCard .weatherHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-right .weather .weatherCard .weatherIcon {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 42px;
+}
+
+.main-right .weather .weatherCard .weatherCity {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.main-right .weather .weatherCard .weatherCity .name {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 34px;
+}
+
+.main-right .weather .weatherCard .weatherCity .temp {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 4rem;
+}
+
+.main-right .weather .weatherCard .weatherCity .temp .tempIcon {
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.main-right .weather .weatherCard .weatherDetails {
+  padding-top: 15px;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.main-right .weather .weatherCard .weatherDetails i {
+  font-size: 14px;
+  font-weight: 100;
+  padding-bottom: 9px;
+}
+
+.main-right .weather .weatherCard .weatherOtherDays {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 25px;
+}
+
+.main-right .weather .weatherCard .weatherOtherDays div {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.main-right .weather .weatherCard .weatherOtherDays div i {
+  font-size: 20px;
+}
+
+.main-right .weather .weatherCard .weatherOtherDays div span {
+  padding-top: 5px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+
+.main-right .weather .weatherCard .weatherOtherDays div .fa-sun {
+  color: orange;
+}
+
+.main-right .comments .commentscontainer .tab-content .content .commentCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+}
+
+.main-right .comments .commentscontainer .tab-content .content .commentCard .details {
+  padding-left: 10px;
+  font-size: 14px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.main-right .comments .commentscontainer .tab-content .content .commentCard .details span {
+  height: 3px;
+  color: gray;
+}
+
+.main-right .comments .commentscontainer .tab-content .content .commentCard .details .bold {
+  color: black;
+  font-weight: 600;
+}
+
 @media only screen and (max-width: 1200px) {
   .hideForSmall {
     display: none;
@@ -390,6 +904,15 @@
   }
   .newGallery .right4 {
     height: 200px;
+  }
+  .newGallery .my-col {
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-right {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
