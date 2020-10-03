@@ -5,18 +5,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="C:\Users\msı\Desktop\1.pdf" alt="Logo" width="80" height="80">
- 
   <h3 align="center">PSD to SASS</h3>
-
   <p align="center">
     Pixel perfect coding from ready Photoshop file to HTML and SASS
     <br />
   </p>
 </p>
 
-
-
+![0001](https://user-images.githubusercontent.com/64660609/94989213-c6d69500-057b-11eb-9a9c-abb6cbd308df.jpg)
 
 
 <!-- ABOUT THE PROJECT -->
