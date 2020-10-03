@@ -21,6 +21,33 @@
 
     <header>
         <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="list" href="#">About</a>
+                <a class="list" href="#">Services</a>
+                <a class="list" href="#">Clients</a>
+                <a class="list" href="#">Contact</a>
+
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-dribbble"></i>
+                    <i class="fab fa-soundcloud"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
             <div class="navTop disappearForMobil">
                 <div class="container">
                     <div class="navTopLeft ">
@@ -60,7 +87,7 @@
                     <div class="logo">
                         <div class="mobilToggle">
                             <div class="left showOnTablet">
-                                <span> &#9776; </span>
+                                <span style="cursor: pointer;" onclick="openNav()"> &#9776; </span>
                                 <i class="fas fa-search"></i>
                             </div>
                             <img src="assets/logo.jpg" width="300" height="49" alt="habernokta">
@@ -81,7 +108,8 @@
                     <div class="navMain">
                         <div class="navMain-Left">
                             <ul>
-                                <li>HOME</li>
+
+                                <li>HOME </li>
                                 <li>WORLD</li>
                                 <li>SPORTS</li>
                                 <li>TECH</li>
@@ -125,14 +153,23 @@
                 <div class="row my-row">
                     <div class="col-lg my-col left ">
                         <div class="leftContent">
-
+                            <span>Life Style</span>
+                            <div>
+                                <p>Oct 27, 2020</p>
+                                <h5>Design is the key of showing value</h5>
+                                <p>stay focused and remember I design the best website.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg">
                         <div class="row my-row">
                             <div class="col my-col ">
                                 <div class="rightTop">
-
+                                    <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5>After all is said and done, more is done</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -140,11 +177,20 @@
                             <div class="col-sm my-col">
 
                                 <div class="right3">
-
+                                    <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5> Enjoy the website </h5>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm my-col">
-                                <div class="right4"></div>
+                                <div class="right4"> <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5>Design is fresh like swimming fishes </h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -180,6 +226,13 @@
                             <div class="row trendingNews">
                                 <div class="col-sm col-left">
                                     <div class="leftContent">
+                                        <span>Life Style</span>
+                                        <div>
+                                            <h5> Enjoy the website </h5>
+                                            <p>Oct 27, 2020</p>
+
+                                        </div>
+                                        <i class="fas fa-bolt"></i>
 
                                     </div>
                                 </div>

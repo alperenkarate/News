@@ -1,7 +1,7 @@
-var docWidth = document.documentElement.offsetWidth;
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
 
-[].forEach.call(document.querySelectorAll("*"), function (el) {
-  if (el.offsetWidth > docWidth) {
-    console.log(el);
-  }
-});
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}

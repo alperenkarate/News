@@ -16,6 +16,30 @@
   background-repeat: no-repeat;
   background-position: top;
   height: 403px;
+  position: relative;
+}
+
+.newGallery .leftContent span {
+  color: white;
+  background-color: #b8a436;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.newGallery .leftContent div {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 20px;
+  font-size: 10px;
+}
+
+.newGallery .leftContent div P {
+  margin: 5px;
 }
 
 .newGallery .rightTop {
@@ -29,6 +53,33 @@
   padding-bottom: 5px;
 }
 
+.newGallery .rightTop span {
+  color: white;
+  background-color: #2846cc;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.newGallery .rightTop div {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+  font-size: 10px;
+}
+
+.newGallery .rightTop div P {
+  margin: 5px;
+}
+
+.newGallery .rightTop div h5 {
+  font-size: 15px;
+}
+
 .newGallery .right3 {
   background: url(/assets/image2.jpg);
   height: -webkit-fit-content;
@@ -36,6 +87,33 @@
   height: fit-content;
   background-size: cover;
   height: 200px;
+}
+
+.newGallery .right3 span {
+  color: white;
+  background-color: #3c7cdc;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.newGallery .right3 div {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+  font-size: 10px;
+}
+
+.newGallery .right3 div P {
+  margin: 5px;
+}
+
+.newGallery .right3 div h5 {
+  font-size: 15px;
 }
 
 .newGallery .right4 {
@@ -46,6 +124,33 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
+}
+
+.newGallery .right4 span {
+  color: white;
+  background-color: #2cc5d0;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 12px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.newGallery .right4 div {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+  font-size: 10px;
+}
+
+.newGallery .right4 div P {
+  margin: 5px;
+}
+
+.newGallery .right4 div h5 {
+  font-size: 15px;
 }
 
 .my-col {
@@ -153,6 +258,46 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 415px;
+  position: relative;
+}
+
+.main-left .trendingNews .col-left .leftContent span {
+  color: white;
+  background-color: #3c7cdc;
+  padding: 2px 4px;
+  border-radius: 1px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 70px;
+  left: 30px;
+}
+
+.main-left .trendingNews .col-left .leftContent div {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 30px;
+  font-size: 10px;
+}
+
+.main-left .trendingNews .col-left .leftContent div P {
+  margin: 5px;
+}
+
+.main-left .trendingNews .col-left .leftContent div h5 {
+  font-size: 25px;
+}
+
+.main-left .trendingNews .col-left .leftContent i {
+  color: white;
+  background: red;
+  padding: 10px 15px;
+  font-size: 20px;
+  margin: 0;
+  border-radius: 100%;
+  position: absolute;
+  left: 5px;
+  top: -10px;
 }
 
 .main-left .trendingNews .col-right .rightContent {
@@ -2002,6 +2147,118 @@ nav {
           box-shadow: 0px -2px 30px 0px #c4c2c4;
 }
 
+nav .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #2f88d6, #5933a2);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align: center;
+  text-align: left;
+}
+
+nav .sidenav .list {
+  border-bottom: 0.3px solid rgba(163, 161, 161, 0.4);
+}
+
+nav .sidenav .social {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav .sidenav .social i {
+  margin-left: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+nav .sidenav form {
+  z-index: 99999;
+  border: 1px solid rgba(211, 211, 211, 0.275);
+  margin: 0 20px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+nav .sidenav form ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.4;
+  /* Firefox */
+}
+
+nav .sidenav form :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.4;
+  /* Firefox */
+}
+
+nav .sidenav form ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.4;
+  /* Firefox */
+}
+
+nav .sidenav form ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.4;
+  /* Firefox */
+}
+
+nav .sidenav form .input-group input {
+  border: none;
+  background: none;
+  color: lightgray;
+}
+
+nav .sidenav form .input-group i {
+  color: white;
+}
+
+nav .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav .sidenav a:hover {
+  color: #f1f1f1;
+}
+
+nav .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  nav .sidenav {
+    padding-top: 15px;
+  }
+  nav .sidenav a {
+    font-size: 18px;
+  }
+}
+
 .navTop {
   background-color: white;
   border-bottom: 1px solid lightgray;
@@ -2229,6 +2486,10 @@ nav {
 
 .navMainWrapper .navMain .navMain-Right ul li {
   margin-right: 15px;
+}
+
+.navMainWrapper .navMain .navMain-Right ul li .input-group-append {
+  z-index: 0;
 }
 
 .navMainWrapper .navMain .navMain-Right ul .nav-search {

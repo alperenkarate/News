@@ -12,6 +12,27 @@
     background-repeat: no-repeat;
     background-position: top;
     height: 403px;
+    position: relative;
+    span {
+      color: white;
+      background-color: rgb(184, 164, 54);
+      padding: 2px 4px;
+      border-radius: 1px;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+    div {
+      position: absolute;
+      color: white;
+      bottom: 10px;
+      left: 20px;
+      font-size: 10px;
+      P {
+        margin: 5px;
+      }
+    }
   }
   .rightTop {
     background: url(/assets/image3.jpg);
@@ -20,12 +41,58 @@
     background-position: center;
     height: 200px;
     padding-bottom: 5px;
+    span {
+      color: white;
+      background-color: rgb(40, 70, 204);
+      padding: 2px 4px;
+      border-radius: 1px;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+    div {
+      position: absolute;
+      color: white;
+      bottom: 10px;
+      left: 30px;
+      font-size: 10px;
+      P {
+        margin: 5px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+    }
   }
   .right3 {
     background: url(/assets/image2.jpg);
     height: fit-content;
     background-size: cover;
     height: 200px;
+    span {
+      color: white;
+      background-color: rgb(60, 124, 220);
+      padding: 2px 4px;
+      border-radius: 1px;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+    div {
+      position: absolute;
+      color: white;
+      bottom: 10px;
+      left: 30px;
+      font-size: 10px;
+      P {
+        margin: 5px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+    }
   }
   .right4 {
     background: url(/assets/image4.jpg);
@@ -33,6 +100,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
+    span {
+      color: white;
+      background-color: rgb(44, 197, 208);
+      padding: 2px 4px;
+      border-radius: 1px;
+      font-size: 12px;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+    }
+    div {
+      position: absolute;
+      color: white;
+      bottom: 10px;
+      left: 30px;
+      font-size: 10px;
+      P {
+        margin: 5px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+    }
   }
 }
 
@@ -123,6 +213,42 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 415px;
+        position: relative;
+        span {
+          color: white;
+          background-color: rgb(60, 124, 220);
+          padding: 2px 4px;
+          border-radius: 1px;
+          font-size: 12px;
+          position: absolute;
+          bottom: 70px;
+          left: 30px;
+        }
+        div {
+          position: absolute;
+          color: white;
+          bottom: 10px;
+          left: 30px;
+          font-size: 10px;
+
+          P {
+            margin: 5px;
+          }
+          h5 {
+            font-size: 25px;
+          }
+        }
+        i {
+          color: white;
+          background: red;
+          padding: 10px 15px;
+          font-size: 20px;
+          margin: 0;
+          border-radius: 100%;
+          position: absolute;
+          left: 5px;
+          top: -10px;
+        }
       }
     }
     .col-right {
