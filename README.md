@@ -10,7 +10,7 @@
   </p>
 </p>
 
-![0001](https://user-images.githubusercontent.com/64660609/94989213-c6d69500-057b-11eb-9a9c-abb6cbd308df.jpg)
+![news1](https://user-images.githubusercontent.com/64660609/94990025-9f82c680-0581-11eb-95a5-cb931e90d49d.jpg)
 
 
 <!-- ABOUT THE PROJECT -->
