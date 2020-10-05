@@ -7,7 +7,8 @@
   <p align="center">
     Pixel perfect coding from ready Photoshop file to HTML and SASS
     <br />
-  </p>
+  [LiveDemo](https://alperenkarate.github.io/News/)
+</p>
 </p>
 
 ![news1](https://user-images.githubusercontent.com/64660609/94990025-9f82c680-0581-11eb-95a5-cb931e90d49d.jpg)
