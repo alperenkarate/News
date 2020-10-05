@@ -8,7 +8,7 @@
 }
 
 .newGallery .leftContent {
-  background: url(/assets/image1.jpg);
+  background: url/assets/image1.jpg);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -43,7 +43,7 @@
 }
 
 .newGallery .rightTop {
-  background: url(/assets/image3.jpg);
+  background: url/assets/image3.jpg);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -81,7 +81,7 @@
 }
 
 .newGallery .right3 {
-  background: url(/assets/image2.jpg);
+  background: url/assets/image2.jpg);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -117,7 +117,7 @@
 }
 
 .newGallery .right4 {
-  background: url(/assets/image4.jpg);
+  background: url/assets/image4.jpg);
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -253,7 +253,7 @@
 }
 
 .main-left .trendingNews .col-left .leftContent {
-  background: url(/assets/news1.jpg);
+  background: url/assets/news1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1096,21 +1096,21 @@
 }
 
 .bannerPhotos .banner1 {
-  background: url(/assets/banner1.jpg);
+  background: url/assets/banner1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bannerPhotos .banner2 {
-  background: url(/assets/banner2.jpg);
+  background: url/assets/banner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .bannerPhotos .banner3 {
-  background: url(/assets/banner3.jpg);
+  background: url/assets/banner3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
