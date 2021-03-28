@@ -1,5 +1,5 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
-&nbsp; [Live Demo](https://alperenkarate.github.io/News/)
+&nbsp; [Live Demo](https://alperenkarate.github.io/PSD-to-HTML/)
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
